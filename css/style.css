@@ -1,0 +1,31 @@
+#gameArea {
+    display: none;
+  }
+  #field {
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin: 20px auto;
+   }
+   
+  #field td{
+    border: 1px solid black;
+    min-width: 20px;
+    min-height: 20px;
+    text-align: center;
+    empty-cells: show;
+	  }
+  #field td.closed{
+    background-color: darkgray;
+  }
+  #field td.flagged{
+    background-color: red;
+  }
+  #field td.mine{
+    background: url("../img/mine_small.jpg") red no-repeat center;
+  }
+  #status {
+    width: 75%;
+    border: 1px solid gray;
+    margin: 10px auto;
+    text-align: center;
+  }
